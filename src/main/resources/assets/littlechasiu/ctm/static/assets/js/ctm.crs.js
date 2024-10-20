@@ -9,3 +9,11 @@ let xz = (x, z) => {
     return [x.z, x.x]
   }
 }
+
+let y = (y) => {
+  if (typeof y === "number") {
+    return y
+  } else {
+    return y.y
+  }
+}
